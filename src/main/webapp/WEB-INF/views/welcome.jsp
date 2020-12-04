@@ -12,8 +12,6 @@ charset=ISO-8859-1">
         <div class="container">
             <h1> ${greeting} </h1>
             <p> ${tagline} </p>
-            Chapter 1
-            [ 25 ]
         </div>
     </div>
 </section>
