@@ -7,16 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81339025-adfc-4b98-8b3a-9f7420af8238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/DefaultServlet-servlet.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/jsp/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/DefaultServlet-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/DispatcherServlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/DispatcherServlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/HomeController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +30,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webstore" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -49,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA PRO/JavaProAll/SpringMVC1" />
+    <property name="last_opened_file_path" value="D:/Chapter 3/webstore" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projects\webstore\src\main\webapp" />
+      <recent name="F:\projects\webstore\src\main\webapp\WEB-INF\views" />
       <recent name="F:\projects\webstore\src\main\webapp\WEB-INF\spring\webcontext" />
       <recent name="F:\projects\webstore\src\main\webapp\WEB-INF\spring.webcontext" />
       <recent name="F:\projects\webstore\src\main\webapp\WEB-INF" />
-      <recent name="F:\projects\webstore\src\main\webapp" />
-      <recent name="F:\projects\webstore\src\main\webapp\WEB-INF\jsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,7 +303,15 @@
       <updated>1606478186939</updated>
       <workItem from="1606478195385" duration="17991000" />
       <workItem from="1606815523018" duration="597000" />
-      <workItem from="1607026350147" duration="4999000" />
+      <workItem from="1607026350147" duration="9230000" />
+      <workItem from="1608197538263" duration="1189000" />
+      <workItem from="1608288856535" duration="12537000" />
+      <workItem from="1608321789887" duration="1632000" />
+      <workItem from="1608324912881" duration="62000" />
+      <workItem from="1608325002219" duration="18000" />
+      <workItem from="1608655492991" duration="11871000" />
+      <workItem from="1609186498678" duration="2918000" />
+      <workItem from="1609698395290" duration="5539000" />
     </task>
     <task id="LOCAL-00001" summary="ver 1.1">
       <created>1606511697000</created>
@@ -303,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606511697000</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ver 1.1">
+      <created>1607110021217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607110021217</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
