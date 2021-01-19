@@ -70,6 +70,7 @@ import com.packt.webstore.domain.repository.ProductRepository;
         public Set<Product> getProductsByFilter(Map<String, List<String>>filterParams) {
             Set<Product> productsByBrand = new HashSet<Product>();
             Set<Product> productsByCategory = new HashSet<Product>();
+            Set<Product> productsByPrice = new HashSet<Product>();
             Set<String> criterias = filterParams.keySet();
 
             if(criterias.contains("brand")) {
@@ -87,23 +88,33 @@ import com.packt.webstore.domain.repository.ProductRepository;
                     productsByCategory.addAll(this.getProductsByCategory(category));
                 }
             }
-            if (criterias.contains("price")){
-                          if(criterias.contains("price")) {
+
+            if(criterias.contains("price")) {
                     for(String priceString: filterParams.get("unitPrice")) {
-                        productsByCategory.addAll(this.getProductsByCategory(priceString));
+                        for (Product product:listOfProducts) {
+                            if (product.getUnitPrice().toString().equalsIgnoreCase(priceString)){
+                                productsByPrice.add(product);
+                            }
+                        }
+
                     }
-                }
+
             }
-
-
             productsByCategory.retainAll(productsByBrand);
+            //productsByCategory.addAll(productsByPrice);
 
             return productsByCategory;
 
                 }
 
         public List<Product> getProductsByManufacturer(String manufacturer) {
-//            Set<Product> productsByManufacturer = new HashSet<Product>();
+            List<Product> productsByManufacturer = new ArrayList<Product>();
+            for (Product product : getAllProducts()) {
+                if (product.getManufacturer().equalsIgnoreCase(manufacturer)) {
+                    productsByManufacturer.add(product);
+                }
+            }
+
 //            List<Product> productsByCategory = new ArrayList<Product>();
 //
 //            for(Product product: listOfProducts) {
@@ -111,8 +122,16 @@ import com.packt.webstore.domain.repository.ProductRepository;
 //productsByCategory.retainAll(productsByManufacturer);
 //                }
 //            }
-          //  return productsByCategory;
-            return null;
+//            return productsByCategory;
+//            List<Product> productsBуManufacturer= new ArrayList<Product>();
+//
+//            for(Product product: listOfProducts) {
+//                if(manufacturer.equalsIgnoreCase(product.getManufacturer())){
+//                    productsBуManufacturer.add(product);
+//                }
+//            }
+//            return productsBуManufacturer;
 
+            return productsByManufacturer;
         }
     }
