@@ -67,53 +67,116 @@ import com.packt.webstore.domain.repository.ProductRepository;
             return productsByCategory;
 
         }
-        public Set<Product> getProductsByFilter(Map<String, List<String>>filterParams) {
-            Set<Product> productsByBrand = new HashSet<Product>();
-            Set<Product> productsByCategory = new HashSet<Product>();
-            Set<Product> productsByPrice = new HashSet<Product>();
-            Set<String> criterias = filterParams.keySet();
-
-            if(criterias.contains("brand")) {
-                for(String brandName: filterParams.get("brand")) {
-                    for(Product product: listOfProducts) {
-                        if(brandName.equalsIgnoreCase(product.getManufacturer())){
-                            productsByBrand.add(product);
-                        }
-                    }
-                }
-            }
-
-            if(criterias.contains("category")) {
-                for (String category : filterParams.get("category")) {
-                    productsByCategory.addAll(this.getProductsByCategory(category));
-                }
-            }
-
-            if(criterias.contains("price")) {
-                    for(String priceString: filterParams.get("unitPrice")) {
-                        for (Product product:listOfProducts) {
-                            if (product.getUnitPrice().toString().equalsIgnoreCase(priceString)){
-                                productsByPrice.add(product);
-                            }
-                        }
-
-                    }
-
-            }
-            productsByCategory.retainAll(productsByBrand);
-            //productsByCategory.addAll(productsByPrice);
-
-            return productsByCategory;
-
-                }
+//        public Set<Product> getProductsByFilter(Map<String, List<String>>filterParams) {
+//            Set<Product> productsByBrand = new HashSet<Product>();
+//            Set<Product> productsByCategory = new HashSet<Product>();
+//            Set<Product> productsByPrice = new HashSet<Product>();
+//            Set<String> criterias = filterParams.keySet();
+//
+//            if(criterias.contains("brand")) {
+//                for(String brandName: filterParams.get("brand")) {
+//                    for(Product product: listOfProducts) {
+//                        if(brandName.equalsIgnoreCase(product.getManufacturer())){
+//                            productsByBrand.add(product);
+//                        }
+//                    }
+//                }
+//            }
+//
+//            if(criterias.contains("category")) {
+//                for (String category : filterParams.get("category")) {
+//                    productsByCategory.addAll(this.getProductsByCategory(category));
+//                }
+//            }
+//
+//            if(criterias.contains("price")) {
+//                    for(String priceString: filterParams.get("unitPrice")) {
+//                        for (Product product:listOfProducts) {
+//                            if (product.getUnitPrice().toString().equalsIgnoreCase(priceString)){
+//                                productsByPrice.add(product);
+//                            }
+//                        }
+//
+//                    }
+//            }
+//            productsByCategory.retainAll(productsByBrand);
+//            //productsByCategory.addAll(productsByPrice);
+//            return productsByCategory;
+//
+//                }
 
         public List<Product> getProductsByManufacturer(String manufacturer) {
-            List<Product> productsByManufacturer = new ArrayList<Product>();
-            for (Product product : getAllProducts()) {
-                if (product.getManufacturer().equalsIgnoreCase(manufacturer)) {
-                    productsByManufacturer.add(product);
+            return null;
+        }
+public Set<Product> getProductsByFilter(Map<String, List<String>> filterParams) {
+
+    Set<Product> sorted = new HashSet<Product>() ;
+    sorted.addAll(listOfProducts);
+
+    List<Product> listToBeDeleted = new ArrayList<Product>();
+
+    Set<String> criterias = filterParams.keySet();
+
+    if (criterias.contains("brand")) {
+        for (String brandName : filterParams.get("brand")) {
+            for (Product product : sorted) {
+                if (!brandName.equalsIgnoreCase(product.getManufacturer())) {
+                    //sorted.remove(product);
+                    listToBeDeleted.add(product);
+                    System.out.println(product.toString());
                 }
             }
+        }
+    }
+sorted.removeAll(listToBeDeleted);
+    listToBeDeleted = new ArrayList<Product>();
+
+    if (criterias.contains("category")) {
+        for (String category : filterParams.get("category")) {
+            // productsByCategory.addAll(this.getProductsByCategory(category));
+            for (Product product : sorted) {
+                if (!category.equalsIgnoreCase(product.getCategory())) {
+                    listToBeDeleted.add(product);
+                }
+            }
+        }
+    }
+    sorted.removeAll(listToBeDeleted);
+    listToBeDeleted = new ArrayList<Product>();
+
+    if (criterias.contains("price")) {
+        for (String priceString : filterParams.get("price")) {
+            for (Product product : sorted) {
+                if (!product.getUnitPrice().toString().equalsIgnoreCase(priceString)) {
+                    listToBeDeleted.add(product);
+
+                }
+            }
+
+        }
+
+    }
+    sorted.removeAll(listToBeDeleted);
+//        productsByCategory.retainAll(productsByBrand);
+//        //productsByCategory.addAll(productsByPrice);
+
+    return sorted;
+
+}
+
+
+
+//        public List<Product> getProductsByManufacturer(String manufacturer) {
+//            List<Product> productsByManufacturer = new ArrayList<Product>();
+//            for (Product product : getAllProducts()) {
+//                if (product.getManufacturer().equalsIgnoreCase(manufacturer)) {
+//                    productsByManufacturer.add(product);
+//                }
+//            }
+
+
+
+
 
 //            List<Product> productsByCategory = new ArrayList<Product>();
 //
@@ -132,6 +195,6 @@ import com.packt.webstore.domain.repository.ProductRepository;
 //            }
 //            return productsBуManufacturer;
 
-            return productsByManufacturer;
-        }
-    }
+//            return productsByManufacturer;
+//        }
+}

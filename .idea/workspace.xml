@@ -8,14 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="81339025-adfc-4b98-8b3a-9f7420af8238" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/service/impl/ProductServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -307,7 +302,7 @@
       <workItem from="1609698395290" duration="6294000" />
       <workItem from="1610472807660" duration="5028000" />
       <workItem from="1610907151585" duration="3860000" />
-      <workItem from="1611081788509" duration="2146000" />
+      <workItem from="1611081788509" duration="7069000" />
     </task>
     <task id="LOCAL-00001" summary="ver 1.1">
       <created>1606511697000</created>
@@ -323,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607110021217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added sort by price">
+      <created>1611086675180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611086675181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +346,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ver 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver 1.1" />
+    <MESSAGE value="added sort by price" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sort by price" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,6 +356,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java</url>
           <line>53</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/packt/webstore/service/ProductService.java</url>
