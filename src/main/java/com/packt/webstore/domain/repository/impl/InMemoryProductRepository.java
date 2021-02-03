@@ -77,7 +77,12 @@ import com.packt.webstore.domain.repository.ProductRepository;
         public List<Product> getProductsByManufacturer(String manufacturer) {
             return null;
         }
-public Set<Product> getProductsByFilter(Map<String, List<String>> filterParams) {
+
+        public void addProduct(Product product) {
+            listOfProducts.add(product);
+        }
+
+        public Set<Product> getProductsByFilter(Map<String, List<String>> filterParams) {
     Set<Product> addedProducts = new HashSet<Product>();
     addedProducts.addAll(listOfProducts);
     Set<String> criterias = filterParams.keySet();
