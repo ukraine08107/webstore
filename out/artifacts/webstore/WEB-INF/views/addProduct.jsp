@@ -8,6 +8,12 @@
     <link rel="stylesheet"
           href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <title>Products</title>
+
+    <style>
+        #newProduct{width: 70%;}
+        #discontinued{margin: 12px 8px;}
+        .condition-button{margin: 0 10px;}
+    </style>
 </head>
 <body>
 <section>
@@ -34,21 +40,12 @@
                 <form:input id="productName" path="name" type="text" class="form:input-large"/>
             </div>
             </div>
-<%--                <div class="form-group">--%>
-<%--                        <label class="control-label col-lg-2" for="description">Description</label>--%>
-<%--                            <form:textarea id="description" path= "description" rows = "2"/>--%>
-<%--                    </div>--%>
-<%--                </div>--%>
-
         <div class="form-group">
             <label class="control-label col-lg-2" for="description">Description</label>
             <div class="col-lg-10">
-                <form:textarea id="description" path="description" rows = "2"/>
+                <form:textarea id="description" path="description" type="text" class="form:input-large"/>
             </div>
         </div>
-
-
-
         <div class="form-group">
             <label class="control-label col-lg-2 col-lg-2" for="unitPrice">Unit price</label>
             <div class="col-lg-10">
@@ -95,9 +92,9 @@
         <div class="form-group">
             <%--@declare id="condition"--%><label class="control-label col-lg-2" for="condition">Condition</label>
             <div class="col-lg-10">
-                <form:radiobutton path="condition" value="New" />New
-                <form:radiobutton path="condition" value="Old" />Old
-                <form:radiobutton path="condition" value="Refurbished" />Refurbished
+                <form:radiobutton path="condition" value="New" class="condition-button"/>New
+                <form:radiobutton path="condition" value="Old" class="condition-button"/>Old
+                <form:radiobutton path="condition" value="Refurbished" class="condition-button"/>Refurbished
             </div>
         </div>
         <div class="form-group">
@@ -106,7 +103,6 @@
                         "btn btn-primary" value ="Add"/>
             </div>
         </div>
-    </fieldset>
     </form:form>
 </section>
 </body>

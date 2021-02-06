@@ -7,23 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81339025-adfc-4b98-8b3a-9f7420af8238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/domain/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/domain/repository/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/domain/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/domain/repository/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/domain/repository/impl/InMemoryProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/views/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/views/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/views/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -321,7 +309,7 @@
       <workItem from="1611343590292" duration="6294000" />
       <workItem from="1611683758555" duration="484000" />
       <workItem from="1612366003093" duration="23000" />
-      <workItem from="1612366698072" duration="5721000" />
+      <workItem from="1612366698072" duration="9846000" />
     </task>
     <task id="LOCAL-00001" summary="ver 1.1">
       <created>1606511697000</created>
