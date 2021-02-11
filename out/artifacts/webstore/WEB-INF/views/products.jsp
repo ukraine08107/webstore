@@ -7,7 +7,16 @@
 charset=ISO-8859-1">
     <link rel="stylesheet"
           href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <style>
+        .thumbnail{
+            height: 250px;
+        }
+        .item-description{
+            max-height: 70px;
+        }
+    </style>
     <title>Products</title>
+
 </head>
 <body>
 <section>
@@ -26,7 +35,8 @@ charset=ISO-8859-1">
                 <div class="thumbnail">
                     <div class="caption">
                         <h3>${product.name}</h3>
-                        <p>${product.description}</p>
+                        <p class="item-description">${product.description}</p>
+
                         <p>$${product.unitPrice}</p>
                         <p>Available ${product.unitsInStock} units in
                             stock</p>

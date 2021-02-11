@@ -12,7 +12,9 @@
     <style>
         #newProduct{width: 70%;}
         #discontinued{margin: 12px 8px;}
-        .condition-button{margin: 0 10px;}
+        .condition-button{margin: 0 10px !important;}
+        input[type="text"], input[type="number"],
+        textarea {width: 25% !important;}
     </style>
 </head>
 <body>
