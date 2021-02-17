@@ -72,24 +72,25 @@
                 <form:input id="unitsInStock" path="unitsInStock" type="text" class="form:input-large"/>
             </div>
         </div>
-        <div class="form-group">
-            <label class="control-label col-lg-2 col-lg-2" for="unitsInOrder">Units in order</label>
-            <div class="col-lg-10">
-                <form:input id="unitsInOrder" path="unitsInOrder" type="text" class="form:input-large"/>
-            <div class="col-lg-10">
-            </div>
-<%--        </div>--%>
-<%--        <!-- Similarly bind <form:input> tag for name,--%>
-<%-- unitPrice,manufacturer,category,unitsInStock and--%>
-<%-- unitsInOrder fields-->--%>
 
-        </div>
-        <div class="form-group">
-            <label class="control-label col-lg-2" for="discontinued">Discontinued</label>
-            <div class="col-lg-10">
-                <form:checkbox id="discontinued" path="discontinued"/>
-            </div>
-        </div>
+
+
+<%--        <div class="form-group">--%>
+<%--            <label class="control-label col-lg-2 col-lg-2" for="unitsInOrder">Units in order</label>--%>
+<%--            <div class="col-lg-10">--%>
+<%--&lt;%&ndash;                <form:input id="unitsInOrder" path="unitsInOrder" type="text" class="form:input-large"/>&ndash;%&gt;--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--        <div class="form-group">--%>
+<%--            <label class="control-label col-lg-2" for="discontinued">Discontinued</label>--%>
+<%--            <div class="col-lg-10">--%>
+<%--&lt;%&ndash;                <form:checkbox id="discontinued" path="discontinued"/>&ndash;%&gt;--%>
+<%--            </div>--%>
+<%--        </div>--%>
+
+
+
+
 
         <div class="form-group">
             <%--@declare id="condition"--%><label class="control-label col-lg-2" for="condition">Condition</label>
