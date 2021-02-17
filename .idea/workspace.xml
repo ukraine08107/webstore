@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81339025-adfc-4b98-8b3a-9f7420af8238" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/classes/com/packt/webstore/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/views/addProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/ProductController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -335,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611086675181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="data binder">
+      <created>1613580319059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613580319059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +362,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ver 1.1" />
     <MESSAGE value="added sort by price" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sort by price" />
+    <MESSAGE value="data binder" />
+    <option name="LAST_COMMIT_MESSAGE" value="data binder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
