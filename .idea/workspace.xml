@@ -6,62 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81339025-adfc-4b98-8b3a-9f7420af8238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webstore/WEB-INF/views/addProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="eabe3343-6c35-49b4-a3f1-eeda32e3cd6c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="webstore" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1ks8xizptbTaJF5wAmVbnCbMUZt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1pRS0ZSXSRmY5ZxT3tRfv7WaTPG" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Chapter 5/webstore/src/main" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\projects\webstore\src\main\webapp" />
-      <recent name="F:\projects\webstore\src\main\webapp\WEB-INF\views" />
-      <recent name="F:\projects\webstore\src\main\webapp\WEB-INF\spring\webcontext" />
-      <recent name="F:\projects\webstore\src\main\webapp\WEB-INF\spring.webcontext" />
-      <recent name="F:\projects\webstore\src\main\webapp\WEB-INF" />
-    </key>
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.26009852" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,70 +34,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_webstore_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54827" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 7.0.1061" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.1061" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+    <configuration name="Tomcat 7.0.1061" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.1061" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/webstore/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="webstore">
@@ -149,8 +45,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_1061_webstore" />
-        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_webstore_3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -158,74 +53,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51178" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="webstore" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.1061" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/webstore" />
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_webstore" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51178" />
+        <option name="DEBUG_PORT" value="50541" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -275,7 +103,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="unnamed" />
           <artifact name="webstore" />
         </option>
       </method>
@@ -286,105 +113,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81339025-adfc-4b98-8b3a-9f7420af8238" name="Default Changelist" comment="" />
-      <created>1606478186939</created>
+      <changelist id="eabe3343-6c35-49b4-a3f1-eeda32e3cd6c" name="Default Changelist" comment="" />
+      <created>1615144186549</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606478186939</updated>
-      <workItem from="1606478195385" duration="17991000" />
-      <workItem from="1606815523018" duration="597000" />
-      <workItem from="1607026350147" duration="9230000" />
-      <workItem from="1608197538263" duration="1189000" />
-      <workItem from="1608288856535" duration="12537000" />
-      <workItem from="1608321789887" duration="1632000" />
-      <workItem from="1608324912881" duration="62000" />
-      <workItem from="1608325002219" duration="18000" />
-      <workItem from="1608655492991" duration="11871000" />
-      <workItem from="1609186498678" duration="2918000" />
-      <workItem from="1609698395290" duration="6294000" />
-      <workItem from="1610472807660" duration="5028000" />
-      <workItem from="1610907151585" duration="3860000" />
-      <workItem from="1611081788509" duration="7352000" />
-      <workItem from="1611343590292" duration="6294000" />
-      <workItem from="1611683758555" duration="484000" />
-      <workItem from="1612366003093" duration="23000" />
-      <workItem from="1612366698072" duration="11611000" />
-      <workItem from="1612902675866" duration="805000" />
-      <workItem from="1613046313392" duration="851000" />
+      <updated>1615144186549</updated>
+      <workItem from="1615144190961" duration="608000" />
+      <workItem from="1615145053828" duration="8000" />
     </task>
-    <task id="LOCAL-00001" summary="ver 1.1">
-      <created>1606511697000</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606511697000</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ver 1.1">
-      <created>1607110021217</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607110021217</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added sort by price">
-      <created>1611086675180</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1611086675181</updated>
-    </task>
-    <task id="LOCAL-00004" summary="data binder">
-      <created>1613580319059</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613580319059</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="ver 1.1" />
-    <MESSAGE value="added sort by price" />
-    <MESSAGE value="data binder" />
-    <option name="LAST_COMMIT_MESSAGE" value="data binder" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/packt/webstore/service/ProductService.java</url>
-          <line>13</line>
-          <properties class="com.packt.webstore.service.ProductService" method="getProductsByManufacturer">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/packt/webstore/service/impl/ProductServiceImpl.java</url>
-          <line>33</line>
-          <properties class="com.packt.webstore.service.impl.ProductServiceImpl" method="getProductsByManufacturer">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
