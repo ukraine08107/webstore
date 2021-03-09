@@ -8,7 +8,6 @@
 			"text/html; charset=ISO-8859-1">
 	<link rel="stylesheet"
 		  href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-	<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 	<title>Products</title>
 
 	<style>
@@ -30,12 +29,13 @@
 		</div>
 	</section>
 	<section class="container">
-		<form:form  modelAttribute="newProduct" class="form-horizontal">
+		<form:form modelAttribute="newProduct" class="form-horizontal"
+				   enctype="multipart/form-data">
 			<fieldset>
 				<legend>Add new product</legend>
 
 				<div class="form-group">
-					<label class="control-label col-lg-2 col-lg-2" for="productId"><spring:message code="addProdcut.form.productId.label"/></label>
+					<label class="control-label col-lg-2 col-lg-2" for="productId"><spring:message code="addProduct.form.productId.label"/></label>
 					<div class="col-lg-10">
 						<form:input id="productId" path="productId" type="text" class="form:input-large"/>
 					</div>
@@ -89,9 +89,28 @@
 				<div class="form-group">
 					<label class="control-label col-lg-2" for="condition">Condition</label>
 					<div class="col-lg-10">
-						<form:radiobutton path="condition" value="New" />New 
-						<form:radiobutton path="condition" value="Old" />Old 
-						<form:radiobutton path="condition" value="Refurbished" />Refurbished
+						<form:radiobutton id = "condition" path="condition" value="New" />New
+						<form:radiobutton id = "condition" path="condition" value="Old" />Old
+						<form:radiobutton id = "condition" path="condition" value="Refurbished" />Refurbished
+						<div class="form-group">
+							<label class="control-label col-lg-2" for="productImage">
+								<spring:message code="addProduct.form.productImage.label"/>
+							</label>
+							<div class="col-lg-10">
+								<form:input id="productImage" path="productImage"
+
+											type="file" class="form:input-large" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-lg-2" for="productImage">
+								<spring:message code="addProduct.form.productPdf.label"/>
+							</label>
+							<div class="col-lg-10">
+								<form:input id="productPdf" path="productPdf"
+											type="file" class="form:input-large" />
+							</div>
+						</div>
 					</div>
 				</div>
 				

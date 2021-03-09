@@ -6,20 +6,73 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eabe3343-6c35-49b4-a3f1-eeda32e3cd6c" name="Default Changelist" comment="" />
+    <list default="true" id="eabe3343-6c35-49b4-a3f1-eeda32e3cd6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/webstore_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/P1234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/P1235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/pdf/7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webstore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/webstore_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/webstore/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/packt/webstore/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/packt/webstore/domain/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/classes/com/packt/webstore/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/classes/com/packt/webstore/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/classes/com/packt/webstore/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/classes/com/packt/webstore/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/classes/com/packt/webstore/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/classes/com/packt/webstore/domain/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/spring/webcontext/DispatcherServlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/spring/webcontext/DispatcherServlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/views/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/views/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/views/product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/views/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webstore-0.0.1-SNAPSHOT/WEB-INF/views/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webstore.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1pRS0ZSXSRmY5ZxT3tRfv7WaTPG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.26009852" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projects\webstore\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,9 +87,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 7.0.1061" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.1061" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/webstore/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration name="Tomcat 7.0.1061" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.1061" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="webstore">
           <settings>
@@ -120,10 +172,28 @@
       <updated>1615144186549</updated>
       <workItem from="1615144190961" duration="608000" />
       <workItem from="1615145053828" duration="8000" />
+      <workItem from="1615147125064" duration="9695000" />
+      <workItem from="1615318279106" duration="569000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
